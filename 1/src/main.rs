@@ -21,7 +21,7 @@ fn sum_difference(input: String) -> i32 { //puzzle 1
     return acc;
 }
 
-fn simmularity_score_sum(input: String) -> i32 { //puzzle 2
+fn similarity_score_sum(input: String) -> i32 { //puzzle 2
     let mut acc: i32 = 0;
     let mut nums1 = Vec::<i32>::new();
     let mut nums2 = Vec::<i32>::new();
@@ -46,7 +46,7 @@ fn simmularity_score_sum(input: String) -> i32 { //puzzle 2
 
 fn main() {
     let data: String = fs::read_to_string("data.txt").expect("file missing!");
-    let sum = simmularity_score_sum(data);
+    let sum = similarity_score_sum(data);
     println!("{}", sum);
 }
 
@@ -69,7 +69,7 @@ mod tests {
 
     #[test]
     fn puzzle2_works() {
-        let result = simmularity_score_sum(INPUT.to_string());
+        let result = similarity_score_sum(INPUT.to_string());
         assert_eq!(result, 31)
     }
 
