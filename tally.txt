@@ -1,0 +1,5 @@
+tallying how many puzzles completed with 
+the first site submission being correct
+
+Day 1a: first try,   Day 1b: first try
+Day 2a: first try,   Day 2b: first try
