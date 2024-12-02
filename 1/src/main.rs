@@ -101,13 +101,13 @@ mod tests {
 
     #[test]
     fn puzzle1_works() {
-        let result = sum_difference(INPUT.to_string());
+        let result = sum_difference(&INPUT.to_string());
         assert_eq!(result, 11);
     }
 
     #[test]
     fn puzzle2_works() {
-        let result = similarity_score_sum(INPUT.to_string());
+        let result = similarity_score_sum(&INPUT.to_string());
         assert_eq!(result, 31)
     }
 
