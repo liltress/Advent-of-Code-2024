@@ -1,6 +1,9 @@
 tallying how many puzzles completed with 
 the first site submission being correct
 
+longest streak: 5
+
 Day 1a: first try,   Day 1b: first try
 Day 2a: first try,   Day 2b: first try
 Day 3a: first try,   Day 3b: first try
+Day 4a: first try,   Day 4b: SECOND try
